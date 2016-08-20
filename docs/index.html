@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="description" content="Placing a random one image, so as not to overlap as much as possible.">
+	<meta name="keywords" content="random,elements,jquery-plugin">
+	<title>jquery.randomElements</title>
+</head>
+<body id="index">
+
+<script src="./js/jquery.js"></script>
+<script src="../dist/js/jquery.randomElements.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('body').randomElements(
+		[
+			'<img src="img/img.png">',
+			'<img src="img/img2.png">',
+			'<img src="img/img3.png">'
+		],
+		{
+			num: 30,
+			min: 50
+		}
+	);
+})
+</script>
+<style>
+* {
+	margin: 0;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background: -webkit-linear-gradient(#79e6f7 0%, #e9deb9 100%)
+}
+
+.randomContent {
+	background: rgba(255,255,255,0.2);
+	position: absolute;
+	border-radius: 100px;
+}
+</style>
+</body>
+</html>

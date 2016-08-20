@@ -1,0 +1,7 @@
+#file ignore
+Thumbs.db
+.Ds_Store
+
+#directory ignore
+.idea/
+node_modules/
