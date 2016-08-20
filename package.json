@@ -1,6 +1,6 @@
 {
-  "name": "jquery.randomElements",
-  "version": "0.1.0",
+  "name": "jquery.random-elements",
+  "version": "0.1.1",
   "description": "Placing a random one image, so as not to overlap as much as possible.",
   "author": {
     "name": "kamem",
